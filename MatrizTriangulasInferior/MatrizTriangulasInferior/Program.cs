@@ -3,7 +3,6 @@ int n = int.Parse(Console.ReadLine());
 
 int[,] matrix = new int[n, n];
 
-// Llenar matriz con la fórmula i + j
 for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < n; j++)
@@ -12,7 +11,7 @@ for (int i = 0; i < n; i++)
     }
 }
 
-// Mostrar matriz completa
+
 for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < n; j++)
@@ -24,7 +23,7 @@ for (int i = 0; i < n; i++)
 
 Console.WriteLine();
 
-// Mostrar triangular inferior
+
 for (int i = 0; i < n; i++)
 {
     for (int j = 0; j < n; j++)
